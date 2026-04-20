@@ -93,6 +93,7 @@ div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
 	border-bottom: 3px double gray;
+	position: relative;
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -105,6 +106,22 @@ div#subtitle {
 	margin-bottom: 0.0em;
 	padding-top: 0em;
 	padding-bottom: 0.1em;
+}
+
+div.lang-switch {
+	position: absolute;
+	right: 0;
+	top: 0.4em;
+	font-size: 90%;
+}
+
+div.lang-switch a,
+div.lang-switch span {
+	margin-left: 0.6em;
+}
+
+div.lang-switch span {
+	color: #666666;
 }
 
 em {
