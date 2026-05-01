@@ -250,6 +250,22 @@ a:focus {
   max-width: 860px;
 }
 
+.project-gallery {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 420px);
+  gap: 0.85rem;
+  margin: 1rem 0 1rem;
+}
+
+.project-gallery img {
+  width: 420px;
+  height: 280px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 24px rgba(57, 66, 74, 0.08);
+}
+
 .pub-list li {
   margin-bottom: 0.9rem;
 }
@@ -294,6 +310,15 @@ a:focus {
   .profile-photo {
     width: 150px;
     height: 150px;
+  }
+
+  .project-gallery {
+    grid-template-columns: repeat(3, 320px);
+  }
+
+  .project-gallery img {
+    width: 320px;
+    height: 216px;
   }
 
   .markdown-body h2 {
